@@ -2,6 +2,14 @@
 
 Groupe : David GRUBER et Arthur MONTFORT
 
+## Installation
+Pour pouvoir utiliser le projet il faut :
+* Installer Unity (2021.3 ou plus récent)
+* Installer Python (3.8.13 ou plus récent)
+* Installer le package Unity `com.unity.ml-agents`
+* Installer le package Python `mlagents`
+    * Pour se faire, suivre le guide d'installation ML-Agent [ici](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
+    * Ou exécuter la commande `pip install -r ProjetIML/requirements.txt` dans votre environnement virtuel Python
 
 
 ## Description de l'objectif
