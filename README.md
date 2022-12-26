@@ -8,7 +8,7 @@ Pour pouvoir utiliser le projet il faut :
 * Installer Python (3.8.13 ou plus récent)
 * Installer le package Unity `com.unity.ml-agents`
 * Installer le package Python `mlagents`
-    * Pour se faire, suivre le guide d'installation ML-Agent [ici](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
+    * Pour se faire, suivre le guide d'installation ML-Agents [ici](https://github.com/Unity-Technologies/ml-agents/blob/develop/docs/Installation.md)
     * Ou exécuter la commande `pip install -r ProjetIML/requirements.txt` dans votre environnement virtuel Python
 
 
