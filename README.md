@@ -1,6 +1,6 @@
 # ProjetIML
 
-Groupe : David GRUBER et Arthur MONTFORT
+Groupe : David GRUBER, Arthur MONTFORT et Daniel LEDOUSSAL
 
 ## Installation
 Pour pouvoir utiliser le projet il faut :
