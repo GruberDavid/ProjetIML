@@ -44,7 +44,7 @@ behaviors:
 
       # curiosity module
       curiosity:
-        strength: 0.02
+        strength: 0.8
         gamma: 0.99
         encoding_size: 256
         learning_rate: 3.0e-4
