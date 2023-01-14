@@ -12,12 +12,12 @@ Pour pouvoir utiliser le projet il faut :
 
 
 ## Description de l'objectif
-L'objectif est de permettre à un kart de rouler sur des circuits de différentes difficultés.  
+L'objectif est de permettre à un kart de rouler sur des circuits personnalisés de différentes difficultés.  
 Le projet est réalisé en utilisant différents assets du template Kart Microgame d'Unity.  
 Le Machine Learning est fait grâce aux packages Unity et Python ML-Agents.
 
 ## Description haut niveau
-Notre objectif est d’implémenter et modifier le système de kart mis à disposition dans le template Kart Microgame d’Unity pour le faire fonctionner dans des circuits de plus en plus complexes. Un de nos objectifs était de notamment le faire prendre des tremplins servant de raccourcis. 
+Notre objectif est d’implémenter et modifier le système de kart mis à disposition dans le template Kart Microgame d’Unity pour le faire fonctionner dans des circuits personnalisés de plus en plus complexes. Un de nos objectifs était de notamment le faire prendre des tremplins servant de raccourcis. 
 
 Pour cela nous avons utilisé une IA qui se base sur un modèle d’apprentissage par renforcement (reinforcement learning), donc un agent dans un environnement qui reçoit des récompenses et est pénalisé en fonction de son comportement.
 
