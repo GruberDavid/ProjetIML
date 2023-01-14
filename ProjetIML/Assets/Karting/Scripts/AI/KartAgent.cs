@@ -71,6 +71,7 @@ namespace KartGame.AI
         public float SpeedReward;
         [Tooltip("Reward the agent when it keeps accelerating")]
         public float AccelerationReward;
+        public float AirTimeReward;
         #endregion
 
         #region ResetParams
@@ -257,6 +258,7 @@ namespace KartGame.AI
             AddReward(reward * TowardsCheckpointReward);
             AddReward((m_Acceleration && !m_Brake ? 1.0f : 0.0f) * AccelerationReward);
             AddReward(m_Kart.LocalSpeed() * SpeedReward);
+            AddReward(m_Kart.GetAirTime() * AirTimeReward);
         }
 
         public override void OnEpisodeBegin()

@@ -52,6 +52,8 @@ namespace KartGame.KartSystems
             [Tooltip("Additional gravity for when the kart is in the air.")]
             public float AddedGravity;
 
+            public float AirTime;
+
             // allow for stat adding for powerups.
             public static Stats operator +(Stats a, Stats b)
             {
@@ -67,6 +69,7 @@ namespace KartGame.KartSystems
                     ReverseSpeed        = a.ReverseSpeed + b.ReverseSpeed,
                     TopSpeed            = a.TopSpeed + b.TopSpeed,
                     Steer               = a.Steer + b.Steer,
+                    AirTime             = a.AirTime + b.AirTime,
                 };
             }
         }
@@ -75,6 +78,7 @@ namespace KartGame.KartSystems
         public InputData Input     { get; private set; }
         public float AirPercent    { get; private set; }
         public float GroundPercent { get; private set; }
+        public float AirTimeTemp = 0;
 
         public ArcadeKart.Stats baseStats = new ArcadeKart.Stats
         {
@@ -88,6 +92,7 @@ namespace KartGame.KartSystems
             CoastingDrag        = 4f,
             Grip                = .95f,
             AddedGravity        = 1f,
+            AirTime             = 8f,
         };
 
         [Header("Vehicle Visual")] 
@@ -378,6 +383,10 @@ namespace KartGame.KartSystems
             transform.rotation = Quaternion.Euler(euler);
         }
 
+        public float GetAirTime(){
+            return m_FinalStats.AirTime;
+        }
+
         public float LocalSpeed()
         {
             if (m_CanMove)
@@ -478,6 +487,7 @@ namespace KartGame.KartSystems
                 if (m_InAir)
                 {
                     m_InAir = false;
+                    m_FinalStats.AirTime += AirTimeTemp - Time.time;
                     Instantiate(JumpVFX, transform.position, Quaternion.identity);
                 }
 
@@ -561,6 +571,7 @@ namespace KartGame.KartSystems
             else
             {
                 m_InAir = true;
+                AirTimeTemp = Time.time;
             }
 
             bool validPosition = false;

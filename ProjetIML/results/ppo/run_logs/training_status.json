@@ -1,0 +1,66 @@
+{
+    "TestBehavior": {
+        "checkpoints": [
+            {
+                "steps": 349997,
+                "file_path": "results\\ppo\\TestBehavior\\TestBehavior-349997.onnx",
+                "reward": 1602.9847402572632,
+                "creation_time": 1673406866.3838766,
+                "auxillary_file_paths": [
+                    "results\\ppo\\TestBehavior\\TestBehavior-349997.pt"
+                ]
+            },
+            {
+                "steps": 399937,
+                "file_path": "results\\ppo\\TestBehavior\\TestBehavior-399937.onnx",
+                "reward": 1250.6735236644745,
+                "creation_time": 1673407558.5677361,
+                "auxillary_file_paths": [
+                    "results\\ppo\\TestBehavior\\TestBehavior-399937.pt"
+                ]
+            },
+            {
+                "steps": 449994,
+                "file_path": "results\\ppo\\TestBehavior\\TestBehavior-449994.onnx",
+                "reward": 1441.701146534511,
+                "creation_time": 1673408258.5586967,
+                "auxillary_file_paths": [
+                    "results\\ppo\\TestBehavior\\TestBehavior-449994.pt"
+                ]
+            },
+            {
+                "steps": 499978,
+                "file_path": "results\\ppo\\TestBehavior\\TestBehavior-499978.onnx",
+                "reward": 1057.4171064694722,
+                "creation_time": 1673408957.5268412,
+                "auxillary_file_paths": [
+                    "results\\ppo\\TestBehavior\\TestBehavior-499978.pt"
+                ]
+            },
+            {
+                "steps": 500042,
+                "file_path": "results\\ppo\\TestBehavior\\TestBehavior-500042.onnx",
+                "reward": 1057.4171064694722,
+                "creation_time": 1673408957.6884542,
+                "auxillary_file_paths": [
+                    "results\\ppo\\TestBehavior\\TestBehavior-500042.pt"
+                ]
+            }
+        ],
+        "elo": 1094.9812360147862,
+        "final_checkpoint": {
+            "steps": 500042,
+            "file_path": "results\\ppo\\TestBehavior.onnx",
+            "reward": 1057.4171064694722,
+            "creation_time": 1673408957.6884542,
+            "auxillary_file_paths": [
+                "results\\ppo\\TestBehavior\\TestBehavior-500042.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
