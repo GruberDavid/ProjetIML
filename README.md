@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/106980305/212549522-ba09ae21-18d9-427f-af69-5459ddbe8bf3.mp4
+
 # ProjetIML
 
 Groupe : David GRUBER, Arthur MONTFORT et Daniel LEDOUSSAL
@@ -34,7 +38,7 @@ Nous avons donc rencontré les défis suivants :
 
 Au final, le kart arrive globalement à finir chaque circuit créé mais ne prend jamais les tremplins.
 Résultat du premier circuit :
-[![](https://user-images.githubusercontent.com/106980305/212549369-7a6f992f-06b2-4a17-ad9b-c30f005fbb38.mp4)]
+[![Résultat du premier circuit](https://user-images.githubusercontent.com/106980305/212549369-7a6f992f-06b2-4a17-ad9b-c30f005fbb38.mp4)]
 
 
 ## Travail futur
