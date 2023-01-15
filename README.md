@@ -32,14 +32,13 @@ Nous avons donc rencontré les défis suivants :
 * Difficulté à modifier le modèle pour lui faire prendre les tremplins
 * Difficulté à choisir les bon paramètre pour un fonctionnement optimisé de l’IA
 
-Au final, le kart arrive globalement à finir chaque circuit créé mais ne prend jamais les tremplins. 
+Au final, le kart arrive globalement à finir chaque circuit créé mais ne prend jamais les tremplins.
 
-https://user-images.githubusercontent.com/106980305/212550018-8e8f3f2b-73ae-411d-8144-a35c63162ee3.mp4
+[Result Track 1](https://youtu.be/bAsNqyCvN20) 
 
-https://user-images.githubusercontent.com/106980305/212550021-c7d25fab-7909-4624-9e4b-1e095ab8fc0d.mp4
+[Result Track 2 ](https://youtu.be/40hPeNCzmG0) 
 
-
-
+[Result Track 3 ](https://youtu.be/0KGh7vA4VnU) 
 
 ## Travail futur
 On peut potentiellement imaginer utiliser cette IA sur des karts plus complexes, ou alors dans des circuits plus complexes. 
