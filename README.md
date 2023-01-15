@@ -25,6 +25,7 @@ Dans notre cas, notre modèle reçoit une récompense quand :
 * Il passe les différents checkpoints qui sont dispersés sur tout le circuit.
 * Il navigue correctement dans le circuit (pas de collision).
 * Il passe par un tremplin.  
+
 Il est pénalisé en cas de collision avec les murs du circuit.
 
 ## Défis
