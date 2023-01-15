@@ -33,12 +33,10 @@ Nous avons donc rencontré les défis suivants :
 * Difficulté à choisir les bon paramètre pour un fonctionnement optimisé de l’IA
 
 Au final, le kart arrive globalement à finir chaque circuit créé mais ne prend jamais les tremplins.
-
-[Result Track 1](https://youtu.be/bAsNqyCvN20) 
-
-[Result Track 2 ](https://youtu.be/40hPeNCzmG0) 
-
-[Result Track 3 ](https://youtu.be/0KGh7vA4VnU) 
+Résultat en vidéo pour chaque circuit : 
+* [Result Track 1](https://youtu.be/bAsNqyCvN20) 
+* [Result Track 2 ](https://youtu.be/40hPeNCzmG0) 
+* [Result Track 3 ](https://youtu.be/0KGh7vA4VnU) 
 
 ## Travail futur
 On peut potentiellement imaginer utiliser cette IA sur des karts plus complexes, ou alors dans des circuits plus complexes. 
