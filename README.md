@@ -34,9 +34,9 @@ Nous avons donc rencontré les défis suivants :
 
 Au final, le kart arrive globalement à finir chaque circuit créé mais ne prend jamais les tremplins.  
 Résultat en vidéo pour chaque circuit : 
-* [Result Track 1](https://youtu.be/bAsNqyCvN20) 
-* [Result Track 2 ](https://youtu.be/40hPeNCzmG0) 
-* [Result Track 3 ](https://youtu.be/0KGh7vA4VnU) 
+* [Result Track 1](https://youtu.be/Mw1KA922Lmk) 
+* [Result Track 2 ](https://youtu.be/8WLiXgky46k) 
+* [Result Track 3 ](https://youtu.be/D9Xis6VI0Z0) 
 
 ## Travail futur
 On peut potentiellement imaginer utiliser cette IA sur des karts plus complexes, ou alors dans des circuits plus complexes. 
@@ -44,5 +44,11 @@ On peut potentiellement imaginer utiliser cette IA sur des karts plus complexes,
 On peut aussi potentiellement essayer d’utiliser ce genre de modèle dans un environnement réel, afin de guider par IA un vrai Kart.
 
 ## Conclusion
+Le projet nous a apporté les connaissances et capacités suivantes : 
+* Perfectionnement de nos connaissances dans le machine learning, plus spécifiquement dans le domaine du renforcement learning (Analyse et Modification d’un modèle déjà existant).
+* Prise en main des outils de machine learning dans l'environnement de développement Unity. 
+* Développement des capacités à analyser et comprendre un système robotique dans un environnement virtuel. (Dans notre cas, le kart dans le moteur Unity).
+* Amélioration de nos capacités à utiliser les outils collaboratifs (GIT et Github).
+* Amélioration de nos capacités à travailler en équipe.
 
 
